@@ -14,5 +14,4 @@
   "scripts": {
     "start" : "node ./bin/www.js"
   }
-  
 }
