@@ -93,7 +93,6 @@ router.get('/deleteNotice',(req,res)=>{
 });
 
 
-
 /* review_write */
 router.get('/detail',(req, res,next) =>{
     db.getAlldetail((rows) => {
@@ -135,9 +134,6 @@ router.get('/deletedetail',(req,res)=>{
         res.redirect('/detail');
     });
 });
-
-
-
 
 
 

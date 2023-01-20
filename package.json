@@ -6,12 +6,13 @@
     "express": "^4.18.0",
     "express-ejs-layouts": "^2.5.1",
     "express-validator": "^6.14.2",
+    "forever": "^4.0.3",
     "moment": "^2.29.3",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "static": "^2.0.0"
   },
   "scripts": {
-    "start" : "node ./bin/www.js"
+    "start": "node ./bin/www.js"
   }
 }
